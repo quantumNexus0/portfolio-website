@@ -35,4 +35,5 @@ export default defineConfig({
     // Source map setting for production
     sourcemap: false
   }
+   base: '/portfolio-website/', 
 });
