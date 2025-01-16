@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/portfolio-website/', 
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
@@ -35,5 +36,4 @@ export default defineConfig({
     // Source map setting for production
     sourcemap: false
   }
-   base: '/portfolio-website/', 
 });
