@@ -35,4 +35,4 @@ jobs:
           branch: gh-pages  # The branch that GitHub Pages will use
           folder: dist      # Folder containing the built files
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.DB_SETUP }}  # Automatically provided by GitHub Actions
