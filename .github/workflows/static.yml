@@ -7,23 +7,3 @@ Now, let's update the Vite config to support GitHub Pages deployment:
 
 <div class="__boltArtifact__" data-artifact-id="12:vite-config-update" data-running-actions="true"></div>
 
-5. Important steps after pushing to GitHub:
-
-```markdown
-1. Add Environment Variables:
-   - Go to your repository settings
-   - Navigate to "Secrets and variables" → "Actions"
-   - Add these secrets:
-     - VITE_SUPABASE_URL: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl4a3ByZXdqdmhheXdndXZjd2hxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY3NTQyNzEsImV4cCI6MjA1MjMzMDI3MX0.66sqYJfMAcyafyDY2Lf0hz56YOBW9_F_duYRAxk_92E
-     - VITE_SUPABASE_ANON_KEY: https://yxkprewjvhaywguvcwhq.supabase.co
-
-2. Enable GitHub Pages:
-   - Go to repository settings
-   - Navigate to "Pages"
-   - Under "Build and deployment":
-     - Source: Select "GitHub Actions"
-   - Wait for the deployment to complete
-
-3. Fix routing issues:
-   - All routes should now work with the base URL
-   - The site will be available at: https://quantumNexus0.github.io/portfolio-website/
